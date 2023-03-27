@@ -80,13 +80,30 @@
     
     /* GENERICI */
     .box {
-        height: 4.4rem;
+        height: 3rem;
     }
+    .box-2 {
+        height: 4.5rem;
+    }
+    .box-3{
+        height: 3rem;
+        border: 1px solid white;
+        margin-top: 2rem;
+    }
+
     
     .box div {
         border: 1px solid white;
-
     }
+    .box-2 > div {
+        border: 1px solid white;
+    }
+
+    .box-2 > div > div {
+        border: 1px solid #006cfa;
+    }
+
+
     
     /* HEADER  */
     
